@@ -6,11 +6,11 @@ var app = express();
 var customerController=function (req, res) {
   console.log("CAlling rest api");
   var customers=[
-            {firstName:'R',lastName:'Tambade',age:43},
-            {firstName:'Prashant',lastName:'Karhale',age:43},
-            {firstName:'Rohit',lastName:'Puranik',age:28},
+            {firstName:'adil',lastName:'ahmad',age:21},
+            {firstName:'rohan',lastName:'khan',age:23},
+            {firstName:'Rishabh',lastName:'singh',age:28},
             {firstName:'Shiv',lastName:'Kumar',age:25},
-            {firstName:'Manoj',lastName:'Pande',age:23}
+            
       ];
   res.send(customers);
 };
