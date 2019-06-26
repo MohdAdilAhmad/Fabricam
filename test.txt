@@ -1,0 +1,13 @@
+Problem Defination
+
+Fabrican is a multinational company has their 24 offices all over the world.
+company wanted to build and host information Management Solutions in web.
+company also wanted to host internet public website for their potential customers.
+company host internet public website to know about products with online shopping experience.
+They require to build and host intranet for all employees to access Feedback Management System and Leave Management related System
+fabrican has Amazon Webservices Cloud subscription to use it as as Infrastructure as a service(i-a-a-s).
+Company wanted to build  and host this information System in public cloud Google Platform or AWS.  
+
+
+Functional Requirements
+1)Internet Connections

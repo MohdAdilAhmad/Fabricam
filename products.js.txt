@@ -1,0 +1,20 @@
+var express = require('express');
+var app = express();
+
+var productController=function(req, res){
+  console.log("Invoking  rest api for product list");
+  var products = [
+    {id:1, title:"Air Conditioner",quantity:50, unitprice:12000},
+    {id:2, title:"Microwave ",quantity:15, unitprice:160},
+    {id:3, title:"T.V",quantity:50, unitprice:1700},
+   {id:4, title:"Wahing machine",quantity:75,unitprice:34},
+  ];
+  res.send(products);
+};
+
+app.get ('/products',productController);
+var server = app.listen(8086, function () {
+  var host = server.address().address
+  var port = server.address().port
+  console.log("Example app listening at http://localhost:8086", host, port)
+})
